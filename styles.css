@@ -1,2 +1,46 @@
 
 /* Your CSS Code here. */
+
+  body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #calculator {
+            width : 300px;
+			height : 550px ;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow : 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #input {
+            width: 250px;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 1.5em;
+            text-align: right;
+        }
+
+        button {
+            width: 70px;
+            height: 50px;
+            font-size: 1.2em;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        #ans {
+            background-color: #4caf50;
+            color: white;
+        }
+
+        #clr {
+            background-color: #f44336;
+            color: white;
+        }
